@@ -1,7 +1,7 @@
 import {test} from '../../fixtures/baseTest'
 import { expect, request} from '@playwright/test'
-import { adminUser, essUser } from '../../testData/searchUserData'
-import { addAdminUser } from '../../testData/addUserData'
+//import { adminUser, essUser } from '../../testData/searchUserData'
+//import { addAdminUser } from '../../testData/addUserData'
 
 test('login',async({page,loginPage,dashboardPage,adminPage})=>{
 
