@@ -1,0 +1,55 @@
+<a href = "....">:- role link
+<button>  :- role button
+<form>  :- role form
+<h1,h2,h3,h4...> :- role heading
+<img> ...... role img
+<input>  & type is button :--- role button
+<input> & type is checkbox :---- role checkbox
+<input> & type is email :----- role textbox
+<input> & type is user/password -----role textbox
+<input> & type is radio----- role radio
+<input> & type is range ----- sliderbar
+<input> & type search ----- searchbox
+<input> & type is text ---- textbox
+<li>------list
+<ol>,<ul>-----list
+<option>-----option
+<tbody> <thead> <tfoot> ---- rowgroup
+
+<td> ---- cell
+<th>----column header/row header
+<textarea> ----- textbox
+<tr> ---- row
+<select> ---listbox
+
+<p> --- text 
+
+
+css() :- cascading style sheet
+to find web element on the basis of id,class,name,attribute & other attribute...
+if inbuilt fails go to css
+
+2 ways to find CSS:
+
+a> relative css selectors/Locators
+b> Absulute css selectors/Locators
+
+a>relative css selectors/Locators:-
+it finds exact element directly without finding from root
+
+a> id attribute  :- use # // div#idvalue
+b> class attribute:- use . / single value/multiple value:- space not allowed , use . to join to class name
+c> other/any attribute:- use tag[attributeName = 'value']
+d> class and any attribute:- .classvalue[attributeName = 'value']
+e> id & any attribute:- #idvalue[attributeName = 'value'] 
+
+
+
+
+
+
+
+
+ 
+   
+ 
